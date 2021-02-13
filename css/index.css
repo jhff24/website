@@ -1,0 +1,60 @@
+
+
+#landingOverview {
+    text-align: center;
+}
+
+body, html, .container {
+    height: 100%;
+    background-color: rgb(119,173,128);
+}
+
+
+.homePanel div {
+    height: 50vh;
+}
+
+#handyPanel {
+    background-image: url("images/handymanLandingImage.jpg");
+    background-size: 100%;
+    color: white;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+#tutorPanel {
+    background-image: url("images/tutorLandingImage.jpg");
+    background-size: 100%;
+    color: white;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+#codePanel {
+    background-image: url("images/codeLandingImage.jpg");
+    background-size: 100%;
+    color: white;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+#blogPanel {
+    background-image: url("images/jodyAndMeNoBoPark.jpg");
+    background-position: 50% 35%;
+    background-size: 100%;
+    color: white;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+div {
+    max-width:100%;
+}
+
+ul > li {
+    margin-left: 5%;
+}
+
+#softwareExposure > ul {
+    columns: 2;
+}
