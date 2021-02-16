@@ -4,3 +4,7 @@ body {
 body div {
     background-color: #fff;
 }
+
+.row > ul {
+    columns: 2;
+}
