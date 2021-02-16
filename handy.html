@@ -36,31 +36,77 @@
     <div id="nav-placeholder">
         <!--load nav with jquery-->
     </div>
+    <div class="container">
+        <div class="row p-3 m-3">
+            <h1> John Henry Services LLC</h1>
+        </div>
 
+        <div class="row p-3 m-3">
+            <div class="col-sm-6">
+                <h3>Handyman Services</h3>
+                <p>
+                    <ul>
+                        <li>Painting</li>
+                        <li>Basic Carpentry</li>
+                        <li>Deck Finishing</li>
+                        <li>Routine Maintenance</li>
+                        <li>Landscaping/Gardening</li>
+                        <li>Appliance Installation</li>
+                        <li>Moving Furniture</li>
+                        <li>Basic Home Repairs</li>
+                        <li>...Whatever else you may need!</li>
+                    </ul>
+                </p>
+                <p>Don't hesitate to ask about any home services that aren't listed! I cannot do <em>everything</em>, but I'm willing to try darn near whatever you need! </p>
 
-    <div class="container p-3 m-3 border">
-        <h1> John Henry Services LLC</h1>
+                <p>All Handyman services are billed hourly at a rate of $40/hour. Discounts available for regular customers.</p>
+            </div>
+            <div class="col-sm-6">
+                <h4>Submit Handyman Request</h4>
+                <form class="serviceRequest" id="tutorRequest">
+                    <div class="form-group">
+                        <label for="inputName">Your Name</label>
+                        <input type="text" class="form-control" id="inputName" aria-describedby="inputName" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="inputEmail" class="form-text text-muted">I'll never share your info with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <h6>Work Needed:</h6>
+                        <div class="form-check form-check-inline" id="inputLabor">
+                            <input type="checkbox" class="form-check-input" id="needPainting">
+                            <label class="form-check-label" for="needPainting">Painting</label>
+                        </div>
+                        <div class="form-check form-check-inline" id="inputLabor">
+                            <input type="checkbox" class="form-check-input" id="needLandscaping">
+                            <label class="form-check-label" for="subjectMath">Landscaping</label>
+                        </div>
+                        <div class="form-check form-check-inline" id="inputSubjects">
+                            <input type="checkbox" class="form-check-input" id="needCarpentry">
+                            <label class="form-check-label" for="needCarpentry">Carpentry</label>
+                        </div>
+                        <div class="form-check form-check-inline" id="inputSubjects">
+                            <input type="checkbox" class="form-check-input" id="subjectMath">
+                            <label class="form-check-label" for="needOther">Other</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <small for="handyNeeds">Please describe your needs in as much detail as possible and I will follow up by email as soon as I can:</small>
+                        <textarea name="handyNeeds" class="lg-textarea form-control" rows="5">
+                        </textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
     </div>
 
-    <div class="container p-3 m-3 border">
-        <h3>Handyman Services</h3>
-        <p>
-            <ul>
-                <li>Painting</li>
-                <li>Basic Carpentry</li>
-                <li>Deck Finishing</li>
-                <li>Routine Maintenance</li>
-                <li>Landscaping/Gardening</li>
-                <li>Appliance Installation</li>
-                <li>Moving Furniture</li>
-                <li>Basic Home Repairs</li>
-                <li>...Whatever else you may need!</li>
-            </ul>
-        </p>
-        <p>Don't hesitate to ask about any home services that aren't listed! I cannot do <em>everything</em>, but I'm willing to try darn near whatever you need! </p>
 
-        <p>All Handyman services are billed hourly at a rate of $40/hour. Discounts available for regular customers.</p>
-    </div>
 
 </body>
 </html>

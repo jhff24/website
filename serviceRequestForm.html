@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/pages.css">
         <title>Request My Help</title>
 
         <!--ensures proper mobile rendering and touch zoom-->
@@ -33,18 +34,40 @@
 
         </div>
 
-        <form>
-            <div class="form-group">
-                <select class="form-control form-control-lg">
-                    Service Requested
-                    <option>Large select</option>
-                    <option>Large select</option>
-                    <option>Large select</option>
-                </select>
+        <div class="container">
+            <div class="row p-3 mt-3">
+                <h4>John Henry Services LLC</h4>
             </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>General Service Request</h4>
+                    <form class="serviceRequest" id="tutorRequest">
+                        <div class="form-group">
+                            <label for="inputName">Your Name</label>
+                            <input type="text" class="form-control" id="inputName" aria-describedby="inputName" placeholder="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email address</label>
+                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="inputEmail" class="form-text text-muted">I'll never share your info with anyone else.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <small for="tutorNeeds">Please describe your needs in as much detail as possible and I will follow up by email as soon as I can:</small>
+                            <textarea name="tutorNeeds" class="lg-textarea form-control" rows="5">
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
 
 
-        </form>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
 
 
 

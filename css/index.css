@@ -9,6 +9,9 @@ body, html, .container {
     background-color: rgb(119,173,128);
 }
 
+#resume {
+    background-color: #fff;
+}
 
 .homePanel div {
     height: 50vh;
